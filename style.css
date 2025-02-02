@@ -10,10 +10,17 @@
 }
 
 :root {
-    --bg-color: #000;
+ /*   --bg-color: #000;
     --second-bg-color: #111;
     --text-color: #fff;
     --main-color: #FF0000;
+ */
+ 
+ --bg-color: #2c2c2c; /* Darker grey */
+ --second-bg-color: #3d3d3d; /* Medium grey */
+ --text-color: #f0f0f0; /* Light grey */
+ --main-color: #ff007f; /* Vibrant pink */
+
 }
 
 html {
@@ -406,7 +413,9 @@ span {
 }
 
 .portfolio-box img {
-    width: 100%;
+    width: 100%; /* Maintain 100% width to fit the container */
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the images cover the container without distortion */
     transition: 0.4s ease-in-out;
 }
 
