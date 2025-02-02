@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,122 +7,111 @@
     <link rel="stylesheet" href="style.css">
     <title>Henna H- Portfolio</title>
 
+    <style>
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: left; /* Align text to the left */
+            padding: 2rem;
+            margin-top: 5rem;
+        }
+        .services h2 {
+            font-size: 2.5rem;
+            color: var(--main-color);
+            margin-bottom: 1.5rem;
+        }
+        .services p {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .services .highlight {
+            font-weight: bold;
+            color: var(--main-color);
+        }
+        .services .btn {
+            margin-top: 2rem;
+        }
+        .project-description {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem 0;
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- header section code -->
-
-
-
-
-                <section id="services" class="services">
-                    <h2 class="heading"><span>WEB SIVUJEN  SUUNNITTELUA JA TOTEUTUSTA</span></h2>
-                    <br>
-                    Next.js & React-sovellus.<br>
-                    <br>
-                    Käyttäjä voi rekisteröityä ja kirjautua sisään web-sovellukseen.<br>
-                    Sovelluksen avulla joogaohjaaja pystyy suunnittelemaan helposti ja nopeasti tulevan joogaharjoituksen. <br>
-                    <br>
-                    <br>
-                    MERN-sovellus. (MongoDB, Express, React, Nodejs)<br>
-                    <br>
-                    Käyttäjä voi rekisteröityä ja kirjautua sisään web-sovellukseen. <br>
-                    Syöttää tietoa tietokantaan, ja tiedosta voidaan piirtää graafisia esityksiä. Blogisivullani, <br>
-                    on tämän projektin fullstack web-kehityksestä viisi osainen blog-sarja. <br>
-                    <br>
-                    FullStack-kehitys 2023<br>
-                    <br>
-                    Keväällä 2023 suoritin Jyväskylän Ammattikorkeakoulun FullStack kehitys kursseja. <br>
-                    Kurssit on olleet varsin opettavaisia, ja hauskoja, pääsi tekemään sekä backend, että frontend kehitystä. (MERN) <br>
-                    Ja miettimään miten websovellukset saadaan julkaistua internettiin palveluiksi.  <br>
-                    <br><br><br><br><br>
-            
-                </div>
-                </section>
-            
-
     <header class="header">
         <a href="#" class="logo"><span>Henna H</span></a>
-
         <i class="bx bx-menu" id="menu-icon"></i>
-
         <ul class="navbar">
-            <a href="index.html#home">Home</a>
-            <a href="index.html#skills">Skills</a>
-            <a href="index.html#services">Services</a>
+            <a href="index.html#home">Etusivu</a>
+            <a href="index.html#skills">Taidot</a>
+            <a href="index.html#services">Palvelut</a>
             <a href="index.html#portfolio">Portfolio</a>
-            <a href="index.html#contact">Contact</a>
+            <a href="index.html#contact">Yhteystiedot</a>
         </ul>
-
         <div class="top-btn">
             <a href="#contact" class="nav-btn">
-                Contact Me
+                Ota yhteyttä
                 <i class='bx bx-right-arrow-alt'></i>
             </a>
         </div>
-
-
     </header>
 
+    <!-- Services Section -->
+    <section id="services" class="services">
+
+        <h2 class="heading"><span>WEB SIVUJEN SUUNNITTELUA JA TOTEUTUSTA</span></h2>
+
+        <div class="project-description">
+            <p class="highlight">Next.js & React-sovellus</p>
+        <p>Onko sinulla tarve uusille Web-sivuille? Ota yhteyttä, jotta voidaan suunnitella ja toteuttaa web-sivut yhdessä!</p>
+        <p>Nykyaikana kattavat ja tehokkaat web-sivuratkaisut ovat mahdollisia käyttämällä 
+        
+            
+        <span class="highlight">Next.js</span>, <span class="highlight">React</span> ja <span class="highlight">PostgreSQL</span> -työkaluja. Näillä teknologioilla voidaan rakentaa dynaamisia, skaalautuvia ja erittäin suorituskykyisiä sovelluksia, jotka vastaavat nykypäivän vaatimuksiin.
+           Nämä työkalut tarjoavat saumattoman kehityskokemuksen ja mahdollistavat monimutkaistenkin ratkaisujen toteutuksen helposti ja tehokkaasti.</p>
+        <p>Toivottavasti tämä kuvaus sopii tarpeisiisi! Jos tarvitset vielä jotain muuta, kerro vain.</p>
+        </div>
+
+        <div class="project-description">
+            <p class="highlight">Next.js & React-sovellus</p>
+            <p>Käyttäjä voi rekisteröityä ja kirjautua sisään web-sovellukseen. Sovelluksen avulla joogaohjaaja pystyy suunnittelemaan helposti ja nopeasti tulevan joogaharjoituksen.</p>
+        </div>
+
+        <div class="project-description">
+            <p class="highlight">MERN-sovellus (MongoDB, Express, React, Node.js)</p>
+            <p>Käyttäjä voi rekisteröityä ja kirjautua sisään web-sovellukseen. Syöttää tietoa tietokantaan, ja tiedosta voidaan piirtää graafisia esityksiä. Blogisivullani on tämän projektin fullstack web-kehityksestä viisi osainen blog-sarja.</p>
+        </div>
+
+        <div class="project-description">
+            <p class="highlight">FullStack-kehitys 2023</p>
+            <p>Keväällä 2023 suoritin Jyväskylän Ammattikorkeakoulun FullStack kehitys kursseja. Kurssit ovat olleet varsin opettavaisia ja hauskoja; pääsin tekemään sekä backend- että frontend-kehitystä (MERN) ja miettimään, miten websovellukset saadaan julkaistua internettiin palveluiksi.</p>
+        </div>
 
 
+    </section>
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Footer -->
     <div id="contact">
         <div class="footer">
             <div class="main">
-
-            <!--    
                 <div class="col">
-                    <h4>Menu Links</h4>
+                    <h4>Linkit</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-
+                        <li><a href="index.html#home">Etusivu</a></li>
+                        <li><a href="index.html#skills">Taidot</a></li>
+                        <li><a href="index.html#services">Palvelut</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#contact">Yhteystiedot</a></li>
                     </ul>
                 </div>
-
                 <div class="col">
-                    <h4>Our Services </h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="col">
-                    <h4>Information </h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Information</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        
-
-                    </ul>
-                </div>
-
-            -->
-
-                <div class="col">
-                    <h4>Contact Us </h4>
+                    <h4>Yhteystiedot</h4>
                     <div class="social">
                         <a href="#"><i class="bx bxl-facebook"></i></a>
                         <a href="#"><i class="bx bxl-instagram"></i></a>
@@ -130,18 +119,11 @@
                         <a href="#"><i class="bx bxl-whatsapp"></i></a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!--javascript-->
-<!--  <script src="main.js"></script>  -->
-
-
-
-    
-
-
+    <script src="main.js"></script>
 </body>
 </html>
