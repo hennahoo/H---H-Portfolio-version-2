@@ -202,6 +202,20 @@ span {
     box-shadow: 0 0 22px var(--main-color);
 }
 
+
+/*services section padding adjustment for lower text start*/
+
+#services {
+    padding-top: 15rem; /* Adjust the top padding to create more space below the header */
+}
+
+.project-description {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem 0
+}
+
+
 /*scrollbar, vieritys palkki pinkki*/
 
 ::-webkit-scrollbar {
