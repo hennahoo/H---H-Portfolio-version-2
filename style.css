@@ -173,10 +173,21 @@ span {
     position: relative;
     top: 3rem;
     width: 22vw;
+    height: 22vw; /* Add height to match the width */
+    border-radius: 50%;
+    box-shadow: 0 0 15px var(--main-color);
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*
+.home-img img {
+    position: relative;
+    top: 3rem;
+    width: 22vw;
     border-radius: 50%;
     box-shadow: 0 0 15px var(--main-color);
 }
-
+*/
 .home-content p {
     font-size: 1.5rem;
     font-weight: 500;
