@@ -179,6 +179,13 @@ span {
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
 }
 
+@media (max-width: 600px) {
+    .home-img img {
+        width: 200px; /* For smaller screens */
+        height: 200px; /* Ensure height matches width */
+    }
+}
+
 /*
 .home-img img {
     position: relative;
