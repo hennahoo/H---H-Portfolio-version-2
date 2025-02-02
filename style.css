@@ -127,7 +127,7 @@ a {
 
 /* Specificity for header and navbar links to keep their original color */
 header a, .navbar a { 
-    color: var(--text-color); /* Keep original header and navbar link color */
+    color: var(--main-color); /* Keep original header and navbar link color */
 }
 
 
