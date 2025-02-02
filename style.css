@@ -55,10 +55,6 @@ header {
     transition: all 0.5s ease-in-out;
 }
 
-header a {
-    color: var(--link-color); /* Set link color for header */
-}
-
 .logo {
     font-size: 3rem;
     font-weight: 800;
@@ -83,7 +79,7 @@ span {
 .navbar a {
     font-size: 1.8rem;
     font-weight: 500;
-    color: var(--link-color); /* Set link color for navbar */
+    color: var(--text-color); /* Keep original header link color */
     margin-left: 4rem;
     transition: all 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -125,7 +121,7 @@ span {
 }
 
 a {
-    color: var(--link-color); /* Set link color for all links */
+    color: var(--link-color); /* Set link color for all other links */
 }
 
 /*home section*/
@@ -163,7 +159,7 @@ span {
     margin-bottom: 2rem;
     margin-top: 1rem;
     font-size: 5rem;
-    font-weight: 700; /* Corrected selector typo */
+    font-weight: 700;
 }
 
 .multiple-text {
